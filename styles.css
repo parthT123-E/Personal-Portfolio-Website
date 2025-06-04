@@ -714,12 +714,19 @@ form input, form textarea{
   .contact-right{
     margin-top:2rem;
   }
+  .about-paragraph{
+    font-size:12px;
+  }
+
+  .Home{
+    height:auto;
+  }
   /* .Home{
     height:100vh;
   } */
-  section{
+  /* section{
     height:auto;
-  }
+  } */
   .skills-grid{
     align-items:center;
     justify-content:center;
