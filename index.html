@@ -1,0 +1,346 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/da8c8b5ff3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+     <nav>
+          <h2 class = "logo"><span class = "capital">P</span>arth.</h2>
+          
+          <ul class="nav-links" id="sidemenu">
+            <li><a href="#Home" class="nav-links">Home</a></li>
+            <li><a href="#about" class="nav-links">About</a></li>
+            <li><a href="#projects" class="nav-links">Portfolio</a></li>
+            <li><a href="#contact" class="nav-links">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+          
+        </nav>
+
+    <section id="Home" class="Home" data-aos="fade-in" data-aos-duration="1000" 
+  data-aos-delay="800" data-aos-once="true">
+      <div class="home-section-container">
+       <div class="image-container">
+           <img class = "profile-picture" src="images/profile-picture.jpg">
+        </div>
+         <div class="header-text">
+          <div class="typing-text">
+          <p>Hi, I'm a <span class="auto-type"></span></p>
+          </div>
+          <h1>Parth Talati</h1>
+          <p style="font-size:14px">Welcome to my corner of the web! I'm glad you're here. This site is where I share my work, ideas, and passions—whether it's tech, design, writing, or just things that inspire me. Take a look around, explore the projects, and feel free to reach out if something catches your eye. Let's build something great together.
+          </p>
+          
+          <div class="socials">
+            <a class="social-buttons"><img class="social-image" src="images/instagram-white.png" ></a>
+            <a class="social-buttons"><img class="social-image" src="images/linkedln-white.png"></a>
+            <a class="social-buttons"><img class="social-image" src="images/github.png"></a>
+          </div>
+          
+         
+          
+          
+        
+        
+        </div>
+
+        
+       
+        
+      </div>
+      
+    </div>
+    
+    
+  </section>
+
+  <section class ="about" id="about">
+    <div class="container-about">
+      <div class="row">
+        <div class="about-col-1" data-aos="fade-right" data-aos-once="true">
+          <img class="uoft-image" src="images/Utoronto_coa.svg.png">
+        </div>
+        <div class="about-col-2" data-aos="fade-left" data-aos-delay="200" data-aos-once="true">
+          <div class="about-text-haha">
+          <h1 class="sub-title">About Me</h1>
+         
+          <div class="about-paragraph">Hey! I'm a Computer Engineering student at the University of Toronto. <br style="margin-bottom:20px"> I have a passion for all things tech and basketball. When I'm not deep into coding projects or exploring new tools, you'll probably find me watching NBA games and keeping up with the latest basketball news.
+
+I enjoy building things with code in my free time — from small web projects to experimenting with new frameworks.  Whether it's writing clean code or analyzing game highlights, I’m all about combining logic with creativity.
+
+Thanks for stopping by!
+          </div>
+ 
+  
+  
+<a class="resume-downloader">Download Resume <i class="fa-solid fa-download"></i></a>
+          </div>
+<div class="tab-titles">
+            <p class="titles active-link" onclick="opentab('skills')"><i class="fa-solid fa-screwdriver-wrench"></i> Skills</p>
+            <p class="titles" onclick="opentab('experience')"><i class="fa-solid fa-briefcase"></i> Experience</p>
+            <p class="titles" onclick="opentab('education')"><i class="fa-solid fa-graduation-cap"></i> Education</p>
+            
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <div class="info-box">
+            <!-- <ul>
+              <li><span>Frontend Web Development</span><br>Designing Website interfaces , (HTML,CSS,JavaScript) </li>
+              <li><span>Programming Languages</span><br>C/C++,Java, Python, Javascript</li>
+              <li><span>Project Management</span><br>APS112: Engineering Strategies and Practice Client Project</li>
+            </ul> -->
+            <div class = "skills" >
+              <div class = "skills-grid" >
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <i class="fa-brands fa-html5"></i>
+                  <p>HTML</p>
+                </button>
+                
+                </div>
+                <div class="button-layout">
+                  <button class = "skill-button">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <p>CSS</p>
+                </button>
+                
+                </div>
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <i class="fa-brands fa-js"></i>
+                  <p>JavaScript</p>
+                </button>
+                
+                </div>
+                <div class=" button-layout">
+                  <button class="skill-button">
+                  <img class="skill-image" src="images/C_Programming_Language.svg.png">
+                <p>C</p>
+                </button>
+                
+                </div>
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <img class="skill-image" src="images/ISO_C++_Logo.svg">
+                <p>C++</p>
+                </button>
+                
+                </div>
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <i class="fa-brands fa-java"></i>
+                <p>Java</p>
+                </button>
+                
+                </div>
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <img class="skill-image" src="images/Matlab_Logo.png">
+                <p>Matlab</p>
+                </button>
+                
+                </div>
+                
+                <div class="button-layout">
+                  <button class="skill-button">
+                  <img class="skill-image" src="images/altium-designer.png">
+                <p>Altium</p>
+                </button>
+                
+                </div>
+                
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-contents" id="experience">
+            <div class="div project-lists">
+              <h2>Sylvan Learning Tutor</h2>
+              <p>Teaching students (Grades 3-12) on various subjects, such as Mathematics, Science, etc</p>
+            </div>
+            <div class="project-lists">
+              <h2>UTFR Electrical Subteam</h2>
+              <p>Design and develop custom PCBs via Altium!</p>
+            </div>
+            <div class="div project-lists">
+              <h2>Client-Collaboration-UofT Hart House Exhibition</h2>
+              <p>Designed a scissor-arm extendable frame for hanging art-prints, project planning and designing</p>
+            </div>
+            
+          </div>
+          <div class="tab-contents" id="education">
+
+            <div class="div project-lists">
+              <h1>University of Toronto, Computer Engineering</h1>
+              <p>CGPA: 3.63</p>
+              <p>Dean's List (Fall & Winter) Honours Student</p>
+            </div>
+            <div class="div project-lists">
+              <h1>Dunbarton High School</h1>
+              <p>98% Average</p>
+              <p>Chess Club President</p>
+              <p>Coding, STEM Club Executive</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------------------------------services------------------------>
+  <section class="projects" id="projects" data-aos="fade-up" data-aos-once="true">
+    <div class="container-services">
+      <h2 class ="sub-title" data-aos="fade-up" data-aos-delay="0" data-aos-once="true">My Projects</h2>
+      <div class="services-list" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+        <div class = "project-lists">
+          <img src="images/Screenshot 2025-06-03 155939.png" class="website-image">
+          <h2>Personal Portfolio Website</h2>
+          <p style="margin-top:10px">This is a website I designed using HTML, CSS and JS.</p>
+          <button class="github-repo">Github Repo <i class="fa-brands fa-github"></i></button>
+        </div>
+
+        <div class = "project-lists">
+          <img src="images/youtube-project.png" class="website-image">
+          <h2>Youtube Home Page Clone</h2>
+          <p style="margin-top:10px">Recreated the classic YouTube page using pure HTML and CSS styling. Utilized flexbox and other responsive design methods!</p>
+          <!-- <div class="learn-container">
+          <a href="#">Learn More</a>
+          <i class="fa-solid fa-link"></i>
+          </div> -->
+          <button class="github-repo">Github Repo <i class="fa-brands fa-github"></i></button>
+    
+        </div>
+
+        <div class="project-lists">
+          <img class="website-image" src="images/altium-project.png">
+          <h2>Circuit Schematic</h2>
+          <p style="margin-top:10px">Utilized Altium Designer to create a schematic for a fire alarm relay switch.</p>
+          <button class="github-repo">Schematic Image <i class="fa-solid fa-download"></i></button>
+        </div>
+
+        <div class="project-lists">
+          <i class="fa-solid fa-wrench"></i>
+          <h2>More coming soon!</h2>
+          <p style="margin-top:10px">Learning, and wanting to create more exciting projects!</p>
+        </div>
+        
+
+
+        <div>
+
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> parth.talati@mail.utoronto.ca</p>
+          <p><i class="fa-solid fa-phone"></i> (647)-507-1066</p>
+          <div class="socials">
+            <button class="social-buttons"><img class="social-image" src="images/instagram-white.png" ></button>
+            <button class="social-buttons"><img class="social-image" src="images/linkedln-white.png"></button>
+            <button class="social-buttons"><img class="social-image" src="images/github.png"></button>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <ul class="nav-links">
+            <li><a href="#Home" class="nav-links">Home</a></li>
+            <li><a href="#about" class="nav-links">About</a></li>
+            <li><a href="#projects" class="nav-links">Portfolio</a></li>
+            <li><a href="#contact" class="nav-links">Contact</a></li>
+          </ul>
+      <p>&copy; 2025 Parth Talati. All rights reserved.</p>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".auto-type",{
+      strings: ["Engineer", "Coder", "Student","Learner","Teacher"], typeSpeed:150, backSpeed:150,loop:true
+    })
+    var tablinks = document.getElementsByClassName("titles");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+  </script>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyc3mv9_KlScjaKwJEgFkABalSo2k7DyYmPzbk8dV8c_awtZY4KtQZI8y_7Y1BP5YXgqA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },2500)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+  </body>
+
+  </html>
