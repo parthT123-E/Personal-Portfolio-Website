@@ -715,7 +715,7 @@ form input, form textarea{
     margin-top:2rem;
   }
   .about-paragraph{
-    font-size:12px;
+    font-size:14px;
   }
 
   .Home{
@@ -778,6 +778,10 @@ form input, form textarea{
   text-align:center;
   
 }
+
+.about-col-1 img{
+    width:200px;
+  }
 
   /* .tab-titles{
     align-items:center;
@@ -849,9 +853,7 @@ form input, form textarea{
   .about-col-2{
     flex-basis:100%;
   }
-  .about-col-1 img{
-    width:200px;
-  }
+  
   .skills-grid{
     justify-content:center;
     align-items:center;
