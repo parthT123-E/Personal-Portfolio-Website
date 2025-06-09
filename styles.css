@@ -86,6 +86,7 @@ p{
 
 
 .social-buttons {
+  cursor:pointer;
   background-color: #0f0f0f; /* Matches your dark background */
   border: 2px solid #3b82f6; /* Blue border to match accent color */
   border-radius: 50%; /* Makes it circular */
@@ -373,6 +374,7 @@ ul li a:hover{
 
 
 .resume-downloader{
+  text-decoration:none;
   display:inline-block;
   font-size:14px;
   background-color:rgba(58, 56, 56, 0.416);;
