@@ -702,6 +702,9 @@ form input, form textarea{
 
 @media (max-width: 1000px) {
 
+  body{
+    padding-top:4rem;
+  }
   .contact-row{
     flex-direction:column;
     justify-content:center;
@@ -738,6 +741,7 @@ form input, form textarea{
   .home-section-container{
    padding-left:1rem;
    padding-right:1rem;
+   padding-bottom: 4rem;
     flex-direction:column;
     align-items:center;
     justify-content:center;
