@@ -545,10 +545,10 @@ ul li a:hover{
   font-size:12px !important;
 }
 .github-repo{
-  
+  text-decoration:none;
   font-size:12px;
   background-color:rgba(58, 56, 56, 0.416);;
-  color:#4a8ef1;
+  color:#4a8ef1 !important;
   border: 2px solid #4a8ef1;
   border-radius:50px;
   margin-top:20px;
@@ -560,7 +560,7 @@ ul li a:hover{
 .github-repo:hover{
   box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
   background-color:rgba(59, 131, 246, 0.816);
-  color:white;
+  color:white !important;
   transform: scale(1.1);
 
 }
